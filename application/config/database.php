@@ -64,12 +64,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'db.us-losa1.bengt.wasmernet.com',
-	'username' => 'df5f2f0578cc80006d74007801f7',
-	'password' => '0689df5f-2f05-7a9f-8000-6a4e3cf25f33
+	'DB_HOST' => 'db.us-losa1.bengt.wasmernet.com',
+	'DB_USERNAME' => 'df5f2f0578cc80006d74007801f7',
+	'DB_PASSWORD' => '0689df5f-2f05-7a9f-8000-6a4e3cf25f33
 ',
-	'port' => '16751',
-	'database' => 'schooligniter_DB',
+	'DB_PORT' => '16751',
+	'DB_NAME' => 'schooligniter_DB',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
